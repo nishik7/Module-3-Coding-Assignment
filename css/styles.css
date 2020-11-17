@@ -1,0 +1,41 @@
+#my-navbar{
+	background-color: #c7b1b1;
+}
+#nav-list a{
+	text-align: center;
+	color: #4d4d4d;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#brand-name{
+	padding: 3px 15px 0px 15px;
+	color: #4d4d4d;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.navbar-brand{
+	/*height: 42px;*/
+}
+h2{
+	font-weight: bold;
+}
+.content{
+	background-color: #c7b1b1;
+	border: 2px solid black;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1.2em;
+}
+.sub-heading{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+@media (max-width: 768px){
+	.content{
+		margin: 30px;
+	}
+}
